@@ -49,11 +49,50 @@ body {
     line-height: 1.8;
 }
 
+.section-title {
+    margin-top: 15rem;
+    margin-left: 6rem;
+    font-size: 40px;
+    color: var(--yellow)
+}
+
+.projects-container {
+    display: flex;
+    margin-left: 6rem;
+    gap: 4rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.projects-container > div {
+    padding: 2rem;
+    width: 30rem;
+    height: auto;
+    border: 2px solid var(--green);
+
+}
+
+.projects-container > div > h1 {
+    color: var(--green);
+}
+
+.projects-container > div > h3 {
+    color: var(--light);
+    font-style: italic;
+    font-size: 22px;
+}
+
+.projects-container > div > p {
+    color: var(--light);
+    line-height: 1.8;
+    font-size: 20px;
+}
+
 .skillset-container {
     border: 2px solid var(--green);
     padding-top: 2rem;
     padding-bottom: 2rem;
-    margin-top: 8rem;
     margin-left: 6rem;
     margin-right: 4rem;
     display: flex;
@@ -68,7 +107,7 @@ body {
 }
 
 .skillset-container > div > h2 {
-    color: var(--yellow);
+    color: var(--green);
     font-size: 30px;
 }
 
@@ -78,3 +117,4 @@ body {
     font-size: 24px;
     line-height: 1.8;
 }
+
