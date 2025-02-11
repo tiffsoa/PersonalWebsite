@@ -4,3 +4,23 @@
     --yellow: #DBE64C;
     --green: #00804C;
 }
+
+body {
+    background-color: var(--deepblue);
+    margin: 2rem;
+    margin-right: 4rem;
+}
+
+.navbar-container {
+    color: var(--light);
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.intro-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
